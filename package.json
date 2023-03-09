@@ -1,6 +1,6 @@
 {
   "name": "roman-app",
-  "version": "0",
+  "version": "0.1.0",
   "homepage": "http://evgeniystreluykov.github.io.roman-app",
   "private": true,
   "dependencies": {
