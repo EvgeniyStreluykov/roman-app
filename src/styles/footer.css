@@ -1,0 +1,124 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  background: #2C2C2E;
+  box-shadow: -11px -10px 51px rgba(0, 0, 0, 0.25), 0px 0px 26px rgba(0, 0, 0, 0.53), inset 4px 4px 27px rgba(137, 137, 137, 0.33);
+}
+
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  gap: 23px;
+}
+
+.media img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.text {
+  color: #1EAB5F;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+.text img {
+  padding-left: 16px;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+}
+
+.company-text {
+  background: linear-gradient(90.69deg, #1C5771 -13.81%, #4A90AE 23.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer__nav-menu li {
+  display: flex;
+  gap: 24px;
+  cursor: pointer;
+}
+.footer__nav-menu li:hover {
+  transform: scale(1.1);
+}
+
+.footer__nav-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 32px;
+}
+
+.footer__info-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 24px;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.footer-social img {
+  cursor: pointer;
+}
+
+.block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 16px;
+  isolation: isolate;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.block-lang {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 16px;
+  isolation: isolate;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+  width: 16px;
+  height: 16px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(-45deg);
+}

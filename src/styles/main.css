@@ -1,0 +1,89 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.main-info {
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+
+  background: linear-gradient(91.24deg, #1EAB5F 0.36%, #E7B97E 103.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main-info2 {
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #FFFFFF;
+}
+
+.green {
+  color: #1EAB5F;
+}
+
+.connection {
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.connection-info {
+  display: flex;
+}
+
+.connection input {
+  box-sizing: border-box;
+  width: 426px;
+  height: 56px;
+  
+  background-color: inherit;
+  color: #1EAB5F;
+  font-size: 25px;
+  padding-left: 15px;
+
+  border: 1px solid #1EAB5F;
+  border-radius: 5px;
+
+}
+
+.connection button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  gap: 10px;
+
+  width: 426px;
+  height: 56px;
+
+  background: #1EAB5F;
+  border-radius: 5px;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #F0FCF6;
+}
+
+.connection button:hover {
+  background-color: #206641;
+  transform: scale(1.1);
+}
