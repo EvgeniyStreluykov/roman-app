@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/roman-app/static/css/main.d8b0e429.css",
-    "main.js": "/roman-app/static/js/main.2d79ccb6.js",
+    "main.css": "/roman-app/static/css/main.c6dda761.css",
+    "main.js": "/roman-app/static/js/main.b6c770a6.js",
     "static/media/instagram.svg": "/roman-app/static/media/instagram.3fd6518891664a9a52a295bcfef729d7.svg",
     "static/media/media3.svg": "/roman-app/static/media/media3.208894b644a08f2f8b9b9b71421cd645.svg",
     "static/media/media1.svg": "/roman-app/static/media/media1.5e8d083550f4042a92179c333972e58c.svg",
@@ -28,11 +28,11 @@
     "static/media/contacts.svg": "/roman-app/static/media/contacts.3b270dab4740650cb3c25ca4454d8050.svg",
     "static/media/check.svg": "/roman-app/static/media/check.ad935ce0ed0cf23420f4d68580cfb75d.svg",
     "static/media/dot.svg": "/roman-app/static/media/dot.bdee3732cd6e25cd44b0832e62974c43.svg",
-    "main.d8b0e429.css.map": "/roman-app/static/css/main.d8b0e429.css.map",
-    "main.2d79ccb6.js.map": "/roman-app/static/js/main.2d79ccb6.js.map"
+    "main.c6dda761.css.map": "/roman-app/static/css/main.c6dda761.css.map",
+    "main.b6c770a6.js.map": "/roman-app/static/js/main.b6c770a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b0e429.css",
-    "static/js/main.2d79ccb6.js"
+    "static/css/main.c6dda761.css",
+    "static/js/main.b6c770a6.js"
   ]
 }
