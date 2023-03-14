@@ -51,6 +51,7 @@ a.text {
   position: relative;
   width: 28px;
   height: 20px;
+  margin: 10px;
   cursor: pointer;
 }
 
@@ -115,4 +116,51 @@ a.text {
 
 .header__subnav-block:hover {
   background-color: #5c5c5c;
+}
+
+@media (max-width: 1100px) {
+  .header__nav-social {
+    display: none;
+  }
+  .header__subnav {
+    gap: 16px;
+  }
+  .header__subnav-block {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 940px) {
+  .header__subnav {
+    display: none;
+  }
+  .header__nav-record {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__nav-logo img {
+    width: 100px;
+  }
+  .header__nav {
+    padding: 16px;
+    flex-wrap: nowrap;
+    font-size: 12px;
+  }
+  .header__nav-phone span{
+    font-size: 12px;
+  }
+  .header__nav-phone img {
+    width: 15px;
+  }
+  .header__nav-social {
+    display: none;
+  }
+  .header__nav-record {
+    display: none;
+  }
+  .header__subnav {
+    display: none;
+  }
 }

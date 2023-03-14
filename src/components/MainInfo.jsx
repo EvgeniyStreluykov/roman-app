@@ -18,7 +18,7 @@ const MainInfo = () => {
           </div>
         </div>
         <div className='mainInfo__paragraph-block'>
-          <span>О Стройка и ремонт</span>
+          <span>Стройка и ремонт</span>
           <div className='paragraph'>
             <ul>
               <li><img src={check} alt="check" />Кейсы наших клиентов</li>

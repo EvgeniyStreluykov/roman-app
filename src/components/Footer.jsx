@@ -32,15 +32,9 @@ const Footer = () => {
               <div><img src={media2} alt="media2" /></div>
               <div><img src={media3} alt="media3" /></div>
             </div>
-            <div className='company'>
-              <div>
-                <img src={btnLogo} alt="logo" />
-              </div>
-              <div className='company-text'>Alfa Digital Agency – разработка высоко конверсионных сайтов</div>
-            </div>
+
           </div>
         </div>
-        <div></div>
       </div>
 
       <div className='footer__nav-menu'>
@@ -73,27 +67,34 @@ const Footer = () => {
       </div>
 
       <div className='footer__info'>
-        <div className='footer__info-content content'>
+        <div className='footer__info-content'>
           <div className='text'>Смотреть все документы
             <img src={arrow} alt="arrow" />
           </div>
           <div className='block'>
             Политика конфиденциальности
             <div className='arrow'></div>
-            </div>
+          </div>
           <div className='block-lang'>
             <img src={russian} alt="russian" />
             Русский
             <div className='arrow'></div>
           </div>
         </div>
-        <div className='footer-social content'>
+        <div className='footer-social'>
+          
           <img src={whatsapp} alt="whatsapp" />
           <img src={telegram} alt="telegram" />
           <img src={instagram} alt="instagram" />
           <img src={youtube} alt="youtube" />
           <img src={facebook} alt="facebook" />
         </div>
+      </div>
+      <div className='company'>
+        <div>
+          <img src={btnLogo} alt="logo" />
+        </div>
+        <div className='company-text'>Alfa Digital Agency<span className='white'>– разработка высоко конверсионных сайтов</span></div>
       </div>
     </div>
   )

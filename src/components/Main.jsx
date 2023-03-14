@@ -17,18 +17,21 @@ const Main = () => {
             <div><span className='green'>Хотите с нами связаться</span>, оставьте заявку и специалист свяжется с вами в течение 30 минут.</div>
             <div><img src={fire} alt="fire" /></div>
           </div>
-          <div>
+          <div className='width'>
             <input type="num" placeholder='Номер телефона' />
           </div>
-          <div>
+          <div className='width'>
             <button>
               Оставить заявку
               <img src={pic} alt="pic" />
             </button>
+            <div className='attention'>
+              Ваши данные не будут переданы третьим лицам
+            </div>
           </div>
         </div>
       </div>
-      <div>
+      <div className='portret'>
         <img src={portret} alt="portret" />
       </div>
     </div>
